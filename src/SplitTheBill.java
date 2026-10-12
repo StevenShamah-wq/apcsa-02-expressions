@@ -14,8 +14,9 @@ public class SplitTheBill {
     public static void main(String[] args) {
         int billCents = 10000;
         int people = 3;
-
-        // Your code here
-
+        int eachshare= billCents/people;
+        int remainder= billCents % people;
+        System.out.println("Each Share in cents: " + eachshare + "\nRemainder: " + remainder);// Your code here
+        System.out.println("Each Share: $" + eachshare / 100.00);
     }
 }
