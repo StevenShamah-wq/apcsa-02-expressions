@@ -21,7 +21,9 @@ public class GradeAverage {
         double project = 90;
         double participation = 100;
 
-        // Your code here
+        double gradeAverage = ((homework * 0.15) + (classwork * 0.25) + (tests * 0.25) + (project * 0.25) + (participation * 0.10)) * 10.0 / 10.0;
+        System.out.println(Math.round(gradeAverage*10)/10.0);
+    
 
     }
 }
